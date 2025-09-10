@@ -56,7 +56,7 @@ app.get('/pay/:id/success', (req, res) => {
       <body style="font-family: Arial; text-align: center; padding: 50px;">
         <h1>Payment Successful</h1>
         <p>Your recharge for order <b>${req.params.id}</b> has been completed.</p>
-        <a href="http://localhost:8000/"> Return to Frontend</a>
+        <a href="https://proxypayy.netlify.app/"> Return to Frontend</a>
       </body>
     </html>
   `);
